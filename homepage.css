@@ -1,9 +1,17 @@
-ul {
-    list-style-type: none;
+a {
+    vertical-align: middle;    
 }
 
-li {
-    float: left;
-    padding: 5px;
-    text-align: right;
+.topnav {
+    float: right;
+    vertical-align: baseline;
+    border: 1px solid black;
+}
+
+.botnav {
+    border: 1px solid black;
+}
+
+.botnav-right {
+    float: right;
 }
