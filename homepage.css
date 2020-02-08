@@ -1,17 +1,77 @@
-a {
-    vertical-align: middle;    
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
 .topnav {
     float: right;
-    vertical-align: baseline;
     border: 1px solid black;
 }
 
-.botnav {
+.google {
     border: 1px solid black;
+    margin: auto 0;
 }
 
-.botnav-right {
+.google img {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.search {
+    margin: 0 auto;
+    text-align: center;
+}
+
+input {
+    width: 420px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+button {
+    margin: px
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 40px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid rgb(226, 226, 226);
+    background-color: rgb(235, 235, 235);
+}
+
+.footer-right {
+    margin-right: 25px;
+}
+
+.footer-left li {
+    float: left;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footer-right li {
     float: right;
+    list-style-type: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
 }
