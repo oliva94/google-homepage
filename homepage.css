@@ -1,12 +1,39 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
-.topnav {
+header {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+/* HEADER NAV */
+
+#nav_bar {
     float: right;
     border: 1px solid black;
+}
+
+#nav_bar li {
+    display: inline-block;
+    padding: 8px;
+}
+
+#nav_bar #enter {
+    background: #048eff;
+    margin-right: 25px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding: 7px 15px;
+}
+
+#nav_bar #icon {
+    margin-right: 25px;
 }
 
 .google {
@@ -26,6 +53,10 @@ body {
     text-align: center;
 }
 
+form:hover {
+    box-shadow: 1px 1px black;
+}
+
 input {
     width: 420px;
     height: 35px;
@@ -34,15 +65,17 @@ input {
 }
 
 button {
-    margin: px
-    font-family: Arial, sans-serif;
+    font-family: inherit;
+    background-color: rgb(219, 219, 219);
+    border: none;
+    padding: 11px 10px;
 }
 
 .buttons {
     margin: auto;
     text-align: center;
     width: 50%;
-    margin-top: 40px;
+    margin-top: 40px;;
 }
 
 footer {
@@ -60,18 +93,22 @@ footer {
 .footer-left li {
     float: left;
     list-style-type: none;
-    padding: 10px;
-    font-size: 14px;
+    margin-bottom: 15px;
 }
 
 .footer-right li {
     float: right;
     list-style-type: none;
-    padding: 10px;
-    font-size: 14px;
+    margin-bottom: 15px;
 }
 
 a {
     text-decoration: none;
     color: rgb(100, 100, 100);
+    padding: 10px;
+    font-size: 14px;
+}
+
+a .enter {
+    border: 1px solid black;
 }

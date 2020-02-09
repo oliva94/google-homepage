@@ -16,3 +16,5 @@ The current project consists in remaking the Google homepage with the aid of ins
 04. Fixed the position of the menus, both top     & bottom. With the aid of black borders.
 
 05. Everything centered & footer menu styled.
+
+06. Redo the top nav bar - fixed the distances between each      element of the menu
