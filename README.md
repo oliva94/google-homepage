@@ -20,3 +20,5 @@ The current project consists in remaking the Google homepage with the aid of ins
 06. Redo the top nav bar - fixed the distances between each      element of the menu
 
 07. Top menu & search bar styled.
+
+08. Finished styling "search" & "feeling lucky" buttons

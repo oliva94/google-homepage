@@ -78,18 +78,31 @@ input:hover {
 }
 
 /* Buttons */
-button {
-    font-family: inherit;
-    background-color: rgb(219, 219, 219);
-    border: none;
-    padding: 11px 10px;
+.buttons {
+    text-align: center;
+    margin-top: 40px;
 }
 
-.buttons {
-    margin: auto;
-    text-align: center;
-    width: 50%;
-    margin-top: 40px;;
+.buttons #google_search {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons #google_search:hover {
+    border: 1px solid rgb(177, 177, 177);
+    box-shadow: none;
+}
+
+.buttons #im_feeling_lucky {
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons #im_feeling_lucky:hover {
+    border: 1px solid rgb(177, 177, 177);
+    box-shadow: none;
 }
 
 /* Footer */
